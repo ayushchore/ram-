@@ -1,0 +1,549 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rochester&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.home1{
+    color: white;
+}
+.home1:hover{
+     color: rgb(69, 47, 150);
+}
+a{
+    text-decoration: none !important;
+}
+video{
+    filter: brightness(42%);
+}
+
+.img1{
+    width: 20%;
+}
+.headerclass{
+    position: relative;
+}
+.headerclass .navbar{
+    position: absolute;
+    top:1%;
+}  
+
+ .divclassgym{
+    position: absolute;
+    top: 18%;
+    text-align: center;
+    width: 90%;
+    margin: o auto;
+} 
+.videobackground{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    object-fit: cover; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.navdiv,.navbarcontainerclass{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+ .div1{
+    width:50%;
+} 
+.signupbutton{
+    background-color: rgb(237, 86, 59);
+    border: none;
+    width: 11%;
+    height: 7vh;
+            font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+
+}
+.signupbutton:hover{
+    background-color: rgb(244, 115, 92);
+
+
+}
+
+.h1class{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 74px;
+    letter-spacing: 1px;
+}
+.h5class{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.trainingdiv1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.studiodiv1{
+    color: rgb(247, 101, 75);
+}
+.h5class{
+    font-size: 20px;
+}  
+.gymclassh1,.expert1,.schedule,.programs,.class1{
+    color: rgb(237, 86, 59);
+}
+.buttonmember{
+    background-color: rgb(237, 86, 59);
+    width: 60%;
+    padding: 2%;
+    border: none;  
+}
+.buttonmember:hover{
+    background-color: rgb(244, 115, 92);
+}
+.h2training{
+    color:rgb(237, 86, 59);
+}
+ .div11{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+ }
+ .div2,.div4,.div3{
+    margin-bottom: 5%;
+    margin-top: 0%;
+}
+
+
+.section2{
+    background-image: url('./images/background/cta-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    object-fit: cover;  
+    height: 65vh;
+    width: 100%;
+}
+.sec2child{
+    width: 95%;
+    margin: 0 auto;
+}
+.pclass2{
+    font-size: 14px;
+}
+.pclass3{
+font-size: 16px;
+}
+.sec2programsS{
+        font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+}
+.basic1{
+            font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+
+
+}
+.discover{
+    font-weight: 500;
+    font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        color: rgb(237, 86, 59);
+
+
+}
+.card-hover{
+    transition:transform 0.2s ease;
+}
+.card-hover:hover{
+    transition:scale(1.03);
+    cursor: pointer;
+
+}
+
+.section2h1{
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 1px;
+
+}
+.beginh5{
+    color:rgb(237, 86, 59);
+
+}
+.traingclass1{
+    font-weight: 700;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+
+}
+ .section3{
+    background-image: url('./images/background/schedule-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    filter: brightness(80%);
+    object-fit: cover;  
+    width: 100%;
+ }
+
+.divmonday{
+    width: 100%;
+    margin: 0 auto;
+ }
+ td{
+    font-size: 9px;
+    height: 15vh;
+ } 
+              table,td{
+            text-align: center;
+            vertical-align:middle;
+         }
+         .card{
+            margin: 15px;
+         }
+
+ .schedulebutton{
+    background-color: rgb(237, 86, 59);
+    border: none;
+            font-family: "Poppins", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+
+ }
+ .schedulebutton:hover{
+    background-color: rgb(244, 115, 92);
+
+ }
+ .schedulebutton2{
+    background-color: rgb(237, 86, 59);
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    border: none;
+    width: 60%;
+    padding: 3%;
+
+ }
+ .first1,.first2,.first3,.first4{
+    font-size: 17px;
+    font-weight: 600;
+            font-family: "Poppins", sans-serif;
+
+ }
+ .first1,.first4:hover{
+color: rgb(246, 101, 75);
+
+ }
+  .first2:hover{
+color: rgb(246, 101, 75);
+
+ }
+ .first3:hover{
+color: rgb(246, 101, 75);
+
+ }
+
+ .schedulebutton2:hover{
+    background-color: rgb(244, 115, 92);
+
+ }
+ .firstclass{
+    display: flex;
+    height: 15vh;
+    gap: 5%;
+ }
+    
+ .day33,.day44,.day55,.day22{
+    color: white;
+ }
+ .day11,.day22:hover{
+    color: rgb(247, 101, 75);
+ }
+ .day33:hover{
+    color: rgb(247, 101, 75);
+
+ }
+ .day44:hover{
+    color: rgb(247, 101, 75);
+
+ }
+ .day55:hover{
+    color: rgb(247, 101, 75);
+
+ }
+  .divicon3{
+    gap: 5%;
+  }
+  .icon2{
+    color: black;
+  }
+  .icon2:hover{
+    color:rgb(237, 86, 59);
+  }
+  .traine1{
+    color:rgb(237, 86, 59);
+  }
+  .divform{
+    background-image: url('./images/background/contact-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;  
+    width: 100%;
+    height: 100vh;
+
+  }
+  .table11{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+
+  }
+  .formdiv{
+    width: 80%;
+    height: 85vh;
+  }
+  
+textarea{
+    width: 100%;
+}
+  
+  .map-container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .tranies2{
+    font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 20px;
+
+
+ }
+.tranies1{
+     font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+
+
+  }
+  .sendmesgbutton{
+    background-color: rgb(237, 86, 59);
+    width: 60%;
+    padding: 3%;
+    border: none; 
+    font-size: 14px; 
+}
+.sendmesgbutton:hover{
+    background-color: rgb(244, 115, 92);
+}
+.text1{
+    border: 1px solid rgb(34, 33, 33);
+}
+.divfooter{
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.temp1{
+    color:rgb(237, 86, 59) ;
+}
+.div111{
+    padding: 35px;
+    transform: translate(scale(0.98));
+}
+
+@media(min-width:768px){
+    .img1{
+        width: 8%;
+    }
+    .div2,.div4,.div3{
+        margin-bottom: 5%;
+    }
+    .divclassgym{
+        position: absolute;
+        top: 30%;
+        text-align: center;
+        width: 90%;
+        margin: o auto;
+    } 
+    .h1class{
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+     .buttonmember{
+        width: 25%;
+        padding: 2%;
+     }
+     .pclass2{
+        font-size: 15px;
+    }
+    
+     .pclass3{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 17px;
+        }
+        
+     .divmonday{
+        width: 70%;
+        margin: 0 auto;
+     }
+     .divform{
+        height: 85vh;
+     }
+     .formdiv{
+        width: 80%;
+        height: 60vh;
+      }
+      textarea{
+        width: 100%;
+      }
+      .sendmesgbutton{
+        width: 50%;
+        padding: 3%;
+        font-size: 14px; 
+    }
+    td{
+        font-size: 13px;
+        height: 15vh;
+    }
+
+    .schedulebutton2{
+        width: 23%;
+        padding: 2%;
+    }
+    .div111{
+    padding: 40px;
+}
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+}
+@media(min-width:992px){
+    .img1{
+        width: 5%;
+    }
+    
+    .pclass2{
+        width: 50%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+    .img2{
+        width: 20%;
+    }
+    .buttonmember{
+        width: 17%;
+         height: 7vh; 
+         padding: 0%;
+     }
+    .divnavbar1{
+        margin-top: 0%;
+    }
+     .h2training,.traning1{
+        width: 80%;
+        font-size: 30px;
+     }
+     .pclass3{
+        width: 77%;
+        margin: 0 auto;
+        font-size: 17px;
+        }
+         .divmonday{
+            width: 45%;
+            margin: 0 auto;
+         }
+            
+        td{
+            height: 17vh;
+         }
+         .divform{
+            height: 100vh;
+         }
+         .formdiv{
+            height: 75vh;
+          }
+          textarea{
+            width: 100%;
+            height: 30vh;
+          }
+          .sendmesgbutton{
+            width: 37%;
+            padding: 2%;
+          }
+          .div9{
+            width: 80%;
+              margin: 0 auto;
+}
+.div100{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2%;
+}
+
+.section4{
+    width: 90%;
+    margin: 0 auto;
+}
+.div111{
+    padding: 40x;
+}
+
+
+    
+        
+        
+
+    
+
+
+}
